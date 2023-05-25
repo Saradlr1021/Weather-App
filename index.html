@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/92ff959fc6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>SheCodes Project</title>
+  </head>
+  <body>
+    <div class="border">
+      <form id="search-form">
+        <input
+          class="searchbar"
+          type="search"
+          placeholder="Change City"
+          autofocus="on"
+          id="search-text-input"
+        />
+        <input id="submit-button" type="submit" />
+      </form>
+      <h1 class="date">Sunday, 16:00</h1>
+      <h2 id="city-name">Los Angeles, CA</h2>
+      <div class="currentTemp">
+        <h3>
+          <p id="weather-conditon">Partly Cloudy</p>
+          <p id="coordinate">H:61° L:44°</p>
+          <p id="current-temp">59°</p>
+          <span class="units">
+            <a href="#" id="celsius-link">°C</a> |
+            <a href="#" id="fahrenheit-link">°F</a>
+          </span>
+
+          <i
+            id="weather-icon"
+            class="temperature-icon fa-solid fa-cloud-sun"
+          ></i>
+        </h3>
+      </div>
+      <div class="container text-center p-1">
+        <div class="row align-items-center">
+          <div class="col days">
+            <span class="nameweekdays">Mon</span>
+
+            <div class="row align-items-center">
+              <div class="col temp">48°</div>
+              <i class="fa-solid fa-cloud-showers-water"></i>
+            </div>
+          </div>
+          <div class="col days">
+            <span class="nameweekdays">Tue</span>
+
+            <div class="row align-items-center">
+              <div class="col temp">50°</div>
+              <i class="fa-solid fa-cloud-showers-heavy"></i>
+            </div>
+          </div>
+          <div class="col days">
+            <span class="nameweekdays">Wed</span>
+
+            <div class="row align-items-center">
+              <div class="col temp">55°</div>
+              <i class="fa-solid fa-cloud-showers-heavy"></i>
+            </div>
+          </div>
+          <div class="col days">
+            <span class="nameweekdays">Thu</span>
+
+            <div class="row">
+              <div class="col temp">60°</div>
+              <i class="fa-solid fa-cloud-sun"></i>
+            </div>
+          </div>
+          <div class="col days">
+            <span class="nameweekdays">Fri</span>
+
+            <div class="row">
+              <div class="col temp">60°</div>
+              <i class="fa-solid fa-cloud-sun"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
