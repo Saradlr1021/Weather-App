@@ -1,0 +1,122 @@
+h1,
+h2,
+h3 {
+  margin-top: 10px;
+  font-weight: lighter;
+}
+p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body {
+  border: 10px solid #98a8f8;
+  border-width: thick;
+  margin-top: 10px;
+}
+.border {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(91, 173, 254, 0.46) 0%,
+    rgba(91, 224, 254, 0.46) 47.2%,
+    rgba(170, 254, 235, 0.43) 90%
+  );
+}
+.date {
+  text-align: right;
+  margin-right: 30px;
+}
+
+#city-name {
+  text-align: right;
+  margin-right: 30px;
+  font-size: 55px;
+  font-weight: 300;
+}
+
+.currentTemp {
+  position: relative;
+  text-align: center;
+  border: solid;
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.currentTemp h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+div {
+  display: block;
+}
+
+.days {
+  border: solid;
+  border-radius: 75px;
+  padding: 30px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
+
+.nameweekdays {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.temp {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.days i {
+  color: #bccef8;
+  font-size: 30px;
+}
+
+.units {
+  position: relative;
+  top: 47.2px;
+  left: 47px;
+  font-size: small;
+}
+
+.searchbar {
+  margin-left: 25px;
+  width: 600px;
+  margin-top: 15px;
+}
+
+#coordinate {
+  font-weight: lighter;
+  left: 10px;
+}
+
+#current-temp {
+  font-size: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+#weather-icon {
+  font-size: 65px;
+  margin-top: -15px;
+  color: #bccef8;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+}
+
+#submit-button {
+  color: #ffff;
+  background-color: #98a8f8;
+  padding: 10px 10px;
+}
